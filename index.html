@@ -9,6 +9,14 @@
   <body>
     <main>
       <h1>Hello</h1>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <label for="name">First name</label>
+        <input type="text" name="name" id="name" placeholder="your name" />
+        <label for="age">Age</label>
+        <input type="number" name="age" min="0" max="110" placeholder="32" />
+        <button type="submit">Submit</button>
+      </form>
     </main>
   </body>
 </html>
